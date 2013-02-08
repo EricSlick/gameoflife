@@ -1,0 +1,16 @@
+Game Of Life v 0.1 (a Ruby implementation of Conway's Game of Life)
+by Eric Slick
+for Asynchrony Coding Test
+email gameoflife@slickfamily.net
+Feb 8, 2013
+
+Run game_window.rb
+  * It will seed up to 10 colonies with a random number of life forms
+  * no controls are provided in this version (close window and restart)
+
+Rspec tests are provided for the backend but not the front end (game_window.rb)
+
+written using RubyMine 5.0
+
+
+
