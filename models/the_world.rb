@@ -127,7 +127,7 @@ class TheWorld
         x = rand(width/2)+width/4
         y = rand(height/2)+height/4
         cell = Cell.new({:x_pos => x, :y_pos => y}) and seeded = true if @cells_h[x].nil? || @cells_h[x][y].nil?
-        (rand(neighbors_max)+neighbors_min).to_i.times {|i|cell.breed}
+        (rand(neighbors_max)+neighbors_min).to_i.times {|i|cell.breed} if cell
       end
     end
   end

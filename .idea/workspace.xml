@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="37" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.67264575">
+            <state line="25" column="47" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,18 +68,16 @@
       <file leaf-file-name="the_world_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="66" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1360352312000" expanded="true" signature="6574:6698" placeholder="#..." />
-              </folding>
+            <state line="194" column="0" selection-start="7531" selection-end="7531" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="the_world.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="the_world.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/the_world.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="27" selection-start="3308" selection-end="3308" vertical-scroll-proportion="-30.346153">
+            <state line="129" column="31" selection-start="3312" selection-end="3312" vertical-scroll-proportion="0.43838027">
               <folding />
             </state>
           </provider>
@@ -129,10 +127,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/cell_spec.rb" />
         <option value="$PROJECT_DIR$/models/cell.rb" />
-        <option value="$PROJECT_DIR$/spec/the_world_spec.rb" />
-        <option value="$PROJECT_DIR$/models/the_world.rb" />
         <option value="$PROJECT_DIR$/game_window.rb" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/spec/the_world_spec.rb" />
+        <option value="$PROJECT_DIR$/models/the_world.rb" />
       </list>
     </option>
   </component>
@@ -234,41 +232,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.game_window">
-    <configuration default="false" name="TheWorld will remove cells from column of three when they are aged" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="GameOfLife" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/the_world_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="TheWorld will remove cells from column of three when they are aged" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="RSpec.All specs in: spec">
     <configuration default="false" name="TheWorld will handle generating new cells and aging old cells" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="GameOfLife" />
@@ -397,6 +361,40 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="All specs in: spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="GameOfLife" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -509,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.TheWorld will remove cells from column of three when they are aged" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.TheWorld will handle generating new cells and aging old cells" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.TheWorld will update cells from column of three to row of three when they are aged" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.the_world_spec" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.game_window" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.TheWorld will handle generating new cells and aging old cells" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.TheWorld will update cells from column of three to row of three when they are aged" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.the_world_spec" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.game_window" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.game_window" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.the_world_spec" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.game_window" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.the_world_spec" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.TheWorld will update cells from column of three to row of three when they are aged" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.the_world_spec" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.the_world_spec" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.TheWorld will update cells from column of three to row of three when they are aged" />
       </list>
     </recent_temporary>
   </component>
@@ -560,11 +558,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25245523" sideWeight="0.51132685" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48867315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25245523" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48867315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -650,9 +648,7 @@
     <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="40" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1360352312000" expanded="true" signature="6574:6698" placeholder="#..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,25 +708,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="66" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1360352312000" expanded="true" signature="6574:6698" placeholder="#..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/cell_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/the_world.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="27" selection-start="3308" selection-end="3308" vertical-scroll-proportion="-30.346153">
           <folding />
         </state>
       </provider>
@@ -744,7 +724,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="37" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.67264575">
+        <state line="25" column="47" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="0" selection-start="7531" selection-end="7531" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/the_world.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="31" selection-start="3312" selection-end="3312" vertical-scroll-proportion="0.43838027">
           <folding />
         </state>
       </provider>

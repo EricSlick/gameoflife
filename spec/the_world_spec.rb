@@ -187,12 +187,12 @@ describe TheWorld do
   end
 
   it 'will be able to be seeded with cells' do
-    TheWorld.world.seed_world(5, 0)
+    TheWorld.world.seed_world(5, 0, 0)
     TheWorld.world.cells.length.should eq(5)
   end
 
   it 'will be able to be seeded with cells and neighbors' do
-    TheWorld.world.seed_world(5, 3)
+    TheWorld.world.seed_world(5, 3, 0)
     (TheWorld.world.cells.length > 5).should be_true
     (TheWorld.world.cells.length < 21).should be_true
   end
