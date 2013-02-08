@@ -5,8 +5,10 @@ class GameWindow < Gosu::Window
 
   TOP_COLOR = Gosu::Color.new(0xFF1EB1FA)
   BOTTOM_COLOR = Gosu::Color.new(0xFF1D4DB5)
-  CELL_TOP_COLOR = Gosu::Color.new(0xFFFFFFFF)
+  CELL_TOP_COLOR = Gosu::Color.new(0xEEEEEEEE)
   CELL_BOTTOM_COLOR = Gosu::Color.new(0xAAAAAAAA)
+  CELL_TOP_RIGHT_COLOR = Gosu::Color.new(0xAAAAAAAA)
+  CELL_BOTTOM_RIGHT_COLOR = Gosu::Color.new(0xEEEEEEEE)
 
   def initialize
     super 640, 480, false
@@ -15,8 +17,7 @@ class GameWindow < Gosu::Window
     @last_frame = Gosu::milliseconds
     @time_to_age_world = @last_frame
     @update_fps = @last_frame
-    TheWorld.new({:width => 640/4, :height => 440/4})
-    TheWorld.world.seed_world(10, 3, 5)
+    initialize_world
   end
 
   def update
@@ -30,9 +31,6 @@ class GameWindow < Gosu::Window
       TheWorld.world.age_world
       @time_to_age_world = @this_frame + @speed_of_simulation
     end
-    if TheWorld.world.cells.length == 0
-      exit
-    end
 
   end
 
@@ -41,15 +39,20 @@ class GameWindow < Gosu::Window
     draw_cells
   end
 
+  def initialize_world
+    TheWorld.new({:width => 640/4, :height => 440/4})
+    TheWorld.world.seed_world(10, 3, 5)
+  end
+
   private
 
   def draw_cells
     TheWorld.world.cells.each do |cell|
       draw_quad(
           cell.x_pos*4,     cell.y_pos*4+40,      CELL_TOP_COLOR,
-          cell.x_pos*4+4,   cell.y_pos*4+40,      CELL_TOP_COLOR,
+          cell.x_pos*4+4,   cell.y_pos*4+40,      CELL_TOP_RIGHT_COLOR,
           cell.x_pos*4,     cell.y_pos*4+4+40,    CELL_BOTTOM_COLOR,
-          cell.x_pos*4+4,   cell.y_pos*4+4+40,    CELL_BOTTOM_COLOR,
+          cell.x_pos*4+4,   cell.y_pos*4+4+40,    CELL_BOTTOM_RIGHT_COLOR,
           0)
     end
 
@@ -57,11 +60,21 @@ class GameWindow < Gosu::Window
 
   def erase_background
     draw_quad(
-        0,     40,      TOP_COLOR,
-        TheWorld.world.width*4, 40,      TOP_COLOR,
-        0,     TheWorld.world.height*4+40, BOTTOM_COLOR,
+        0,     36,      TOP_COLOR,
+        TheWorld.world.width*4, 36,      TOP_COLOR,
+        0,     TheWorld.world.height*4+46, BOTTOM_COLOR,
         TheWorld.world.width*4, TheWorld.world.height*4+40, BOTTOM_COLOR,
         0)
+  end
+
+  def button_down(id)
+    case id
+      when Gosu::KbEscape
+        close
+      when Gosu::KbEnter, Gosu::KbReturn
+        TheWorld.armageddon
+        initialize_world
+    end
   end
 end
 
