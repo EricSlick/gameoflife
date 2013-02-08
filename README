@@ -18,11 +18,20 @@ Thoughts on Implementation of Rules
 
 Getting Up and Running
   * Written using Ruby 1.9.3
+  * IDE used: RubyMine 5.0
+  * bundle install from project directory (or rubymine/tools/bundler/install)
+  * from terminal or command window
+    * ruby game_window.rb
+  * from RubyMine
+    * right click file and select run
 
 Tests / TDD
-  * TDD approach was used (except for game_window.rb) for this project
+  * TDD approach was used (except for game_window.rb) for this project using Rspec
   * Rspec tests are provided for the backend but not the front end (game_window.rb)
-  * To Run Tests from command line...
+  * Run Tests from command line...
+    *  rspec spec
+  * Run Tests From RubyMine
+    * right click on spec folder and choose Run/All specs in: spec
 
 IDE
   * Written using RubyMine 5.0 and included in zip is the .idea project files
@@ -32,10 +41,12 @@ IDE
 Uses Gosu for displaying the life forms in a window
 
 Issues and Thoughts
-  * Will get slow with a lot of birthing (constructing new cells). Need to optimize (don't delete cells, but re-use, etc)
-    * algorithm to find neighbors is brute force
+  * Optimization Ideas
+    * Will get slow with a lot of birthing (constructing new cells).
+      * Don't delete cells, but re-use
+    * Algorithm to find neighbors is brute force
       * should be able to eliminate overlapping checks
-    * currently uses array and hash map...explore custom collection type/s
-  * Add reset button and control inputs (top black bar) to aid exploring by user
+    * Currently uses array and hash map...explore custom collection type/s
+  * Needs proper inputs (buttons and inputs to aid user exploration
 
 
