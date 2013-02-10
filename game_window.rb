@@ -23,11 +23,11 @@ class GameWindow < Gosu::Window
   def update
     @this_frame = Gosu::milliseconds
     @delta = (@this_frame - @last_frame) / 1000.0
-    @fps = 60000 / (@this_frame - @last_frame)
+    @fps = 1000 / (@this_frame - @last_frame)
     @last_frame = @this_frame
 
     if @this_frame > @time_to_age_world
-      self.caption = "game of Life (FPS =#{(@fps/100).to_s.rjust(4)}.#{(@fps%100).to_s.ljust(2)} Population = #{TheWorld.world.population}" and @update_fps += 500 if @this_frame > @update_fps
+      self.caption = "game of Life (FPS =#{(@fps).to_s.rjust(3)}.#{(@fps%100).to_s.ljust(2)} Population = #{TheWorld.world.population}" and @update_fps += 500 if @this_frame > @update_fps
       TheWorld.world.age_world
       @time_to_age_world = @this_frame + @speed_of_simulation
     end
