@@ -27,7 +27,8 @@ class GameWindow < Gosu::Window
     @last_frame = @this_frame
 
     if @this_frame > @time_to_age_world
-      self.caption = "game of Life (FPS =#{(@fps).to_s.rjust(3)}.#{(@fps%100).to_s.ljust(2)} Population = #{TheWorld.world.population}" and @update_fps += 500 if @this_frame > @update_fps
+      @generation += 1
+      self.caption = "game of Life (FPS =#{(@fps).to_s.rjust(3)}.#{(@fps%100).to_s.ljust(2)} Population = #{TheWorld.world.population} Generation = #{@generation}" and @update_fps += 2 if @this_frame > @update_fps
       TheWorld.world.age_world
       @time_to_age_world = @this_frame + @speed_of_simulation
     end
@@ -42,6 +43,7 @@ class GameWindow < Gosu::Window
   def initialize_world
     TheWorld.new({:width => 640/4, :height => 440/4})
     TheWorld.world.seed_world(10, 3, 5)
+    @generation = 1
   end
 
   private
