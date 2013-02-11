@@ -23,7 +23,7 @@ class GameWindow < Gosu::Window
   def update
     @this_frame = Gosu::milliseconds
     @delta = (@this_frame - @last_frame) / 1000.0
-    @fps = 1000 / (@this_frame - @last_frame)
+    @fps = 1000 / (@this_frame - @last_frame + 1)
     @last_frame = @this_frame
 
     if @this_frame > @time_to_age_world
