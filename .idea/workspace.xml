@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46323088-81a3-4969-b22b-a91fb045cfca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GameOfLife.iml" afterPath="$PROJECT_DIR$/.idea/GameOfLife.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GameOfLife.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="46323088-81a3-4969-b22b-a91fb045cfca" time="1360535159084" ignored="false" />
+    <file path="/Dummy.txt" changelist="46323088-81a3-4969-b22b-a91fb045cfca" time="1360541295382" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,32 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_window.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="game_window.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game_window.rb">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="74" column="21" selection-start="2122" selection-end="2122" vertical-scroll-proportion="1.0652174">
-=======
-            <state line="26" column="156" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="63" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.75757575">
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
+            <state line="76" column="21" selection-start="2186" selection-end="2186" vertical-scroll-proportion="1.1927711">
               <folding />
             </state>
           </provider>
@@ -68,7 +44,7 @@
       <file leaf-file-name="cell_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/cell_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
+            <state line="52" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,7 +53,7 @@
       <file leaf-file-name="cell.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/cell.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +62,7 @@
       <file leaf-file-name="the_world_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="32" selection-start="3250" selection-end="3343" vertical-scroll-proportion="0.0">
+            <state line="102" column="32" selection-start="3343" selection-end="3343" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,19 +71,7 @@
       <file leaf-file-name="the_world.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/the_world.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="17" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-=======
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/example.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="4104" selection-end="4104" vertical-scroll-proportion="0.0">
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
+            <state line="109" column="17" selection-start="2702" selection-end="2702" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,9 +114,8 @@
         <option value="$PROJECT_DIR$/models/cell.rb" />
         <option value="$PROJECT_DIR$/spec/the_world_spec.rb" />
         <option value="$PROJECT_DIR$/models/the_world.rb" />
-        <option value="$PROJECT_DIR$/game_window.rb" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/game_window.rb" />
       </list>
     </option>
   </component>
@@ -196,6 +159,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gameoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -204,8 +177,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="/usr/local/git/bin/git" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -426,30 +398,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-=======
-    <frame x="19" y="29" width="1777" height="1024" extended-state="0" />
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26094005" sideWeight="0.6720827" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26580226" sideWeight="0.67355984" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48867315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32791728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25534374" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48867315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -518,7 +478,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="34" selection-start="3250" selection-end="3343" vertical-scroll-proportion="0.0">
@@ -527,9 +486,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/the_world.rb">
-=======
-    <entry file="file://$PROJECT_DIR$/models/cell.rb">
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
       <provider selected="true" editor-type-id="text-editor">
         <state line="124" column="17" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.0">
           <folding />
@@ -545,13 +501,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/cell_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="11" column="21" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-=======
-        <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" />
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/cell.rb">
@@ -582,15 +534,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-=======
-        <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2020202" />
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/cell_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/cell.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="32" selection-start="3343" selection-end="3343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/the_world.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="17" selection-start="2702" selection-end="2702" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
@@ -600,63 +581,9 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-=======
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
-    <entry file="file://$PROJECT_DIR$/spec/cell_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/the_world_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="32" selection-start="3250" selection-end="3343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/the_world.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="17" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/cell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game_window.rb">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="74" column="21" selection-start="2122" selection-end="2122" vertical-scroll-proportion="1.0652174">
-=======
-        <state line="26" column="156" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="63" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.75757575">
->>>>>>> bfe67a08348d90b2090d7a23a5a8715c9c48d438
+        <state line="76" column="21" selection-start="2186" selection-end="2186" vertical-scroll-proportion="1.1927711">
           <folding />
         </state>
       </provider>
